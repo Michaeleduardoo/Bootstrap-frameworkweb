@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="./img/bootstrap-stack.png" />
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./stylo.css" />
+</head>
+
+<body id="caixa-principal">
+  <nav class="navbar navbar-expand-lg navbar-light" id="oneNav">
+    <div id="caixa-responsiva">
+      <a class="navbar-brand" href="#"><img class="img-um" src="/img/primeiraImg.png" alt="Bootstrap" /></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="display: flex; align-self: center;">
+        <ul class="navbar-nav">
+          <li class="nav-item link-nav">
+            <a class="nav-link " href="#bootstrap">Bootstrap</a>
+          </li>
+
+          <li class="nav-item link-nav">
+            <a class="nav-link" href="#button-inf">Informações</a>
+          </li>
+
+          <li class="nav-item link-nav">
+            <a class="nav-link" href="#concorrentes">Concorrentes</a>
+          </li>
+
+          <li class="nav-item" style="display: flex; align-self: center; margin-left: 10px;">
+            <div class="dropdown">
+              <a id="button-cores" class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Cores do site
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" id="first" href="#">1º COR </a></li>
+                <li><a class="dropdown-item" id="second" href="#">2º COR</a></li>
+              </ul>
+            </div>
+
+          </li>
+        </ul>
+          
+       
+      </div>
+    </div>
+    <section id="menu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link " id="link" href="#bootstrap">Bootstrap</a>
+        </li>
+
+        <li class="nav-item ">
+          <a class="nav-link " id="link-inf"  href="#button-inf">Informações</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " id="link-con" href="#concorrentes">Concorrentes</a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+
+
+
+
+  <div class="conteiner-fluid quemsomos text-center margin">
+    <h3 class="titulo-web" id="texto-web">Um framework web</h3>
+    <img id="img-boots" class="w-90" src="./img/test.png" alt="Bootstrap" />
+    <span id="bootstrap"></span>
+    <h3 id="OqueE">O Que é Bootstrap?</h3>
+
+
+
+    <p class="paragrafo fs-5" id="paragrafo-bootstrap">
+      Bootstrap é um framework front-end que fornece estruturas de CSS para a
+      criação de sites e aplicações responsivas de forma rápida e simples.
+      Além disso, pode lidar com sites de desktop e páginas de dispositivos
+      móveis da mesma forma. Originalmente, o Bootstrap foi desenvolvido para
+      o Twitter por um grupo de desenvolvedores liderados por Mark Otto e
+      Jacob Thornton Logo e se tornou uma das estruturas de front-end e
+      projetos de código aberto mais populares do mundo. Antes de ser uma
+      estrutura de código-fonte aberto, o Bootstrap era conhecido como Twitter
+      Blueprint. Após alguns meses de desenvolvimento, o Twitter realizou sua
+      primeira Hack Week: o projeto ganhou uma grande popularidade quando
+      desenvolvedores de todos os níveis de habilidade usaram o framework sem
+      qualquer orientação externa. Após o evento, ele serviu como guia de
+      estilo para o desenvolvimento de ferramentas internas na empresa por
+      mais de um ano antes de seu lançamento se tornar público.
+    </p>
+  </div>
+
+  <div>
+    <section class="text-center">
+      <p>
+        <button class="btn btn-primary" id="button-inf" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          Informações sobre <strong>bootstrap</strong>
+        </button>
+      </p>
+    </section>
+
+    <section id="Informacoes">
+      <div>
+        <p>
+        <h6 style="font-size: 20px; font-weight: 700; margin-top: 40px;" id="lançamento-h6">Lançamento:</h6>
+        </p>
+        <div style="min-height: 190px">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px; height: 190px;">
+              Em 2011, o Bootstrap foi lançado como um projeto de código aberto, e desde então tem sido atualizado
+              regularmente, com a versão mais recente sendo a 5.0.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+
+        <p>
+        <h6 style="font-size: 20px; font-weight: 700; margin-top: 40px;" id="desenvolvedor-h6">Desenvolvedor:</h6>
+        </p>
+        <div style="min-height: 120px">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px; height: 190px; ">
+              O Bootstrap apareceu como a resposta para essa questão. O framework front-end e de código-aberto foi
+              inicialmente criado por
+              Mark Otto e Jacob Thornton para o desenvolvimento web mais rápido e prático.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div>
+        <p>
+        <h6 style="font-size: 20px; font-weight: 700; margin-top: 40px;" id="escrito-h6">Escrito em:</h6>
+        </p>
+        <div style="min-height: 120px">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px; height: 190px;">
+              Bootstrap é a estrutura HTML , CSS e JS mais popular para o desenvolvimento responsivo... o código utiliza
+              os dois pré-processadores CSS mais populares , Less e Sass .
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p>
+        <h6 style="font-size: 20px; font-weight: 700; margin-top: 40px;" id="compatibilidade-h6">Compatibilidade:</h6>
+        </p>
+        <div style="min-height: 120px">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px; height: 190px;">
+              Bootstrap é suportado pelas versões mais recentes e estáveis dos maiores navegadores e plataformas.
+              No Windows, somos suportados pelo Internet Explorer 10, 11 e Microsoft Edge.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <div>
+      <h3 class="text-center" id="concorrentes">Concorrentes</h3>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/bulma.png" class="d-block w-55" style="margin-left: auto; margin-right: auto;" alt="Bulma">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bulma</h5>
+              <p>Bulma é uma estrutura de código aberto gratuita que fornece componentes de front-end prontos 
+                para uso que você pode combinar facilmente para criar interfaces da Web responsivas.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/UIkit.jpeg" class="d-block w-55" style="margin-left: auto; margin-right: auto;" alt="UIkit">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>UIkit </h5>
+              <p>O UIkit é um framework front-end leve e modular
+                para o desenvolvimento de interfaces web rápidas e poderosas.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/materialize.png" class="d-block w-55" style="margin-left: auto; margin-right: auto;"
+              alt="Materialize">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Materialize</h5>
+              <p>Fizemos a maior parte do trabalho pesado para você fornecer estilos padrão que incorporam nossos componentes personalizados.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/pure.png" class="d-block w-55" style="margin-left: auto; margin-right: auto;"
+              alt="Pure">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Pure</h5>
+              <p>Pure é ridiculamente minúsculo. Todo o conjunto de módulos tem 3,5 KB * minificados e compactados com gzip . </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/Semantic.png" class="d-block w-55" style="margin-left: auto; margin-right: auto;"
+              alt="Semantic">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Semantic UI</h5>
+              <p>Semântica é uma estrutura de desenvolvimento que ajuda a criar layouts bonitos e responsivos usando HTML amigável.</p>
+            </div>
+          </div>
+
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div style="margin-top: 20px; padding: 5px; background-color: #1E063A;" id="footer">
+
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="mailto:michaeledu2018@gmail.com"><img
+              src="./img/mail.png" alt="Email"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://wa.me/5531994495245?text=Ol%C3%A1%2C+tudo+bem%3F" target="_blank"><img
+              src="./img/whats.png" alt="whats"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/michael-eduardo/" target="_blank"><img
+              src="./img/linkedin.png" alt="Linkedin"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#oneNav"><img src="./img/seta.gif" alt="Seta"></a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+
+
+</body>
+
+<script src="./script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+  integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

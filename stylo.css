@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ac5af7;
+}
+
+.img-um {
+  width: 60%;
+  height: 60%;
+  margin-left: 50px;
+}
+
+.navbar {
+  background-color: #1e063a;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.titulo-web {
+  margin: 50px 0;
+  font-size: 65px;
+}
+
+h3 {
+  margin: 50px 0;
+  font-size: 65px;
+}
+
+.paragrafo {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+}
+
+#button-inf {
+  border: 1px none;
+  background: #1e063a;
+  font-size: 20px;
+}
+
+#Informacoes {
+  display: flex;
+  justify-content: space-around;
+}
+
+#button-cores {
+  background-color: #563d7c;
+  border: none;
+}
+
+.nav-item:hover {
+  color: black;
+}
+
+#menu {
+  display: none;
+}
+
+#caixa-responsiva {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media all and (max-width: 990px) {
+  .navbar {
+    justify-content: center;
+  }
+  #menu {
+    display: flex;
+    margin-top: 5px;
+  }
+
+  #button-cores {
+    margin: 15px;
+  }
+
+  .link-nav {
+    display: none;
+  }
+
+  .navbar-collapse {
+    flex-basis: 0%;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  #link {
+    color: #fff;
+  }
+
+  #link-inf {
+    color: #fff;
+  }
+
+  #link-con {
+    color: #fff;
+  }
+
+  .navbar-nav {
+    display: contents;
+    text-align: center;
+  }
+
+  #caixa-responsiva {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-um {
+    width: 85%;
+    margin-left: 20px;
+  }
+
+  #menus {
+    width: 50px;
+    margin-left: 100px;
+  }
+
+  #img-boots {
+    width: 90%;
+  }
+
+  .titulo-web {
+    font-size: 35px;
+  }
+
+  #OqueE {
+    font-size: 35px;
+  }
+
+  #concorrentes {
+    font-size: 35px;
+  }
+
+  #Informacoes {
+    display: block;
+    text-align: center;
+  }
+
+  .card-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Inf {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .nav-link {
+    color: #1e063a;
+  }
+
+  #bootstrap-resp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 4;
+  }
+
+  .d-block {
+    width: 90%;
+  }
+}
